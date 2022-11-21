@@ -1,4 +1,4 @@
-Esercizio di oggi: Dropbox
+Esercizio: Dropbox
 
 Cartella/Repo htmlcss-dropbox
 
