@@ -1,33 +1,565 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dropbox</title>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dropbox</title>
 
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/debug.css">
-    <link rel="stylesheet" href="css/stye.css">
-</head>
-<body>
+        <!-- Stile -->
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/debug.css">
 
-    <!-- HEADER -->
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700;900&display=swap" rel="stylesheet">
 
-    <header>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
 
-    </header>
+    <body class="debug">
 
-    <!-- MAIN -->
+        <!-- HEADER -->
 
-    <main>
+        <!-- Navbar -->
+        <header class="flex">
+            <!-- Sezione Sinistra -->
+            <nav class="left-navbar flex">
+                <!-- Logo -->
+                <a href="index.html"><img src="img/logo-small.png" alt="logo-small"></a>
+                <!-- Link -->
+                <ul>
+                    <li><a href="https://experience.dropbox.com/" target="_blank">Perchè Dropbox</a></li>
+                    <li><a href="https://experience.dropbox.com/" target="_blank">Funzioni</a></li>
+                    <li><a href="https://www.dropbox.com/plans" target="_blank">Piani e Prezzi</a></li>
+                </ul>
+            </nav>
+            <!-- Sezione Destra -->
+            <nav class="right-navbar flex">
+                <!-- Link -->
+                <ul>
+                    <li><a href="https://help.dropbox.com/" target="_blank">Supporto</a></li>
+                    <li><a href="https://www.dropbox.com/contact" target="_blank">Contatta l'ufficio vendite</a></li>
+                    <li><a href="https://www.dropbox.com/login" target="_blank">Accedi</a></li>
+                </ul>
+                <a class="button blue-button" href="#" target="_blank">Inizia</a>
+            </nav>
+        </header>
 
-    </main>
+        <!-- MAIN -->
 
-    <!-- FOOTER -->
+        <main>
+            <!-- MAIN HEADER -->
+            <section class="title">
+                <div class="container">
+                    <!-- Titolo -->
+                    <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
 
-    <footer>
+                    <div class="title-text top-margin-50">
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                        <a class="button blue-button" href="https://www.dropbox.com/business/try?sku=adv" target="_blank">Inizia la tua prova gratuita</a>
+                        <p>Annulla in qualsiasi momento</p>
+                        <a href="#subsciption-plans"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
 
-    </footer>
-</body>
+                    <div class="image">
+                        <img src="img/jumbo.png" alt="jumbo-img">
+                    </div>
+                </div>
+            </section>
+            <!-- Sezione Piani di Abbonamento -->
+            <section id="subsciption-plans" class="plans top-margin-150">
+                <div class="small-container">
+                    <h2>Trova il piano business che fa per te</h2>
+                    <!-- Selettore Tipo di Abbonamento -->
+                    <div id="plans-selector">
+                        <input type="radio" name="plan" id="monthlyPlan">
+                        <label class="smallText" for="monthlyPlan">Fatturazione mensile</label>
+    
+                        <input type="radio" name="plan" id="yearlyPlan">
+                        <label class="smallText" for="yearlyPlan">Fatturazione annuale</label>
+                    </div>
+                    <!-- Informazioni Abbonamento -->
+                    <div class="plans-layout flex top-margin-50">
+                        <!-- Abbonameto Singolo -->
+                        <div class="plan-column">
+                            
+                            <div class="plan-column-header">
+                                <i class="fa-solid fa-user"></i> Singolo
+                            </div>
+                            <!-- Dettagli -->
+                            <div class="plan-column-content">
+                                <h3 class="top-margin-30">Professional</h3>
+
+                                <div class="plan-price top-margin-15">€ 12.00</div>
+
+                                <div class="plan-renewal top-margin-10">/mese</div>
+
+                                <ul class="fa-ul top-margin-30">
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="fa-solid fa-user"></i></span>1 utente
+                                    </li>
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="fa-solid fa-folder"></i></span>5 TB di spazio di archiviazione sicuro
+                                    </li>
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="fa-solid fa-share-nodes"></i></span>Funzioni di produttività preminum e condivisione flie semplice e sicura
+                                    </li>
+                                </ul>
+                                <!-- Bottone Prova Gratuita -->
+                                <a class="button blue-button top-margin-30" href="https://www.dropbox.com/pro/try">Prova gratis per 30 giorni</a>
+                                <!-- Link Acquisto -->
+                                <p class="top-margin-30">oppure<a href="https://www.dropbox.com/buy/professional">acquista ora</a></p>
+                                <!-- Separatore -->
+                                <hr class="top-margin-30">
+                                <!-- Vantaggi -->
+                                <h4 class="top-margin-30">Punti salienti del piano</h4>
+
+                                <ul class="fa-ul top-margin-30">
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="blue-icon fa-solid fa-check"></i></span>Invia file fino a 100GB con Dropbox Transfert
+                                    </li>
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="blue-icon fa-solid fa-check"></i></span>Cartelle offline su dispositivi mobili
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Abbonameto Team -->
+                        <div class="plan-column">
+
+                            <div class="plan-column-header">
+                                <i class="fa-solid fa-users"></i> Team
+                            </div>
+                            <!-- Dettagli -->
+                            <div class="plan-column-content">
+                                <h3 class="top-margin-30">Advanced</h3>
+
+                                <div class="plan-price top-margin-15">€ 18.00</div>
+
+                                <div class="plan-renewal top-margin-10">/utente/mese</div>
+
+                                <ul class="fa-ul top-margin-30">
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="fa-solid fa-users"></i></span>3 o più utenti
+                                    </li>
+                                    <li class="top-margin-15"><span class="fa-li"><i class="fa-solid fa-folder"></i></span>Tutto lo spazio di cui ha bisogno il tuo team
+                                    </li>
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="fa-solid fa-share-nodes"></i></span>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                                    </li>
+                                </ul>
+                                <!-- Bottone Prova Gratuita -->
+                                <a class="button blue-button top-margin-30" href="https://www.dropbox.com/business/try?sku=adv">Prova gratis per 30 giorni</a>
+                                <!-- Link Acquisto -->
+                                <p class="top-margin-30">oppure<a href="https://www.dropbox.com/business/buy?sku=adv">acquista ora</a></p>
+                                <!-- Separatore -->
+                                <hr class="top-margin-30">
+                                <!-- Vantaggi -->
+                                <h4 class="top-margin-30">Punti salienti del piano</h4>
+
+                                <ul class="fa-ul top-margin-30">
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="blue-icon fa-solid fa-check"></i></span>Nessun limite di spazio per i file
+                                    </li>
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="blue-icon fa-solid fa-check"></i></span>Cartelle offline su dispositivi mobili
+                                    </li>
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="blue-icon fa-solid fa-check"></i></span>Risparmio del 50% rispetto alle iscrizioni singole
+                                    </li>
+                                    <li class="top-margin-15">
+                                        <span class="fa-li">
+                                            <i class="blue-icon fa-solid fa-check"></i></span>Possibilità di inserire nuovi membri del team
+                                    </li>
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="blue-icon fa-solid fa-check"></i></span>Gestione dei permessi in base ai ruoli
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Abbonameto Azienda -->
+                        <div class="plan-column">
+
+                            <div class="plan-column-header">
+                                <i class="fa-solid fa-building"></i> Enterprise
+                            </div>
+                            <!-- Dettagli -->
+                            <div class="plan-column-content">
+                                <h3 class="top-margin-30">Enterprise</h3>
+
+                                <div class="plan-price top-margin-15">Contattaci</div>
+                                
+                                <div class="plan-renewal top-margin-10">-</div>
+
+                                <ul class="fa-ul top-margin-30">
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="fa-solid fa-user"></i></span>10 o più utenti
+                                    </li>
+                                    <li class="top-margin-15"><span class="fa-li"><i class="fa-solid fa-folder"></i></span>Soluzioni personalizzabili per la tua azienda
+                                    </li>
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="fa-solid fa-share-nodes"></i></span>Assistenza personalizzata per eiutare gli amministratori in una gestione su larga scala
+                                    </li>
+                                </ul>
+                                <!-- Bottone Prova Gratuita -->
+                                <a class="button blue-button top-margin-30" href="https://www.dropbox.com/enterprise/contact">Contattaci</a>
+                                <!-- Link Acquisto -->
+                                <p class="top-margin-30">oppure<a href="https://www.dropbox.com/enterprise/contact">acquista ora</a></p>
+                                <!-- Separatore -->
+                                <hr class="top-margin-30">
+                                <!-- Vantaggi -->
+                                <h4 class="top-margin-30">Punti salienti del piano</h4>
+
+                                <ul class="fa-ul top-margin-30">
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="blue-icon fa-solid fa-check"></i></span>Cartelle offline su dispositivi mobili
+                                    </li>
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="blue-icon fa-solid fa-check"></i></span>Servizio assistenza 24/h
+                                    </li>
+                                    <li class="top-margin-15">
+                                        <span class="fa-li"><i class="blue-icon fa-solid fa-check"></i></span>Possibilità di personalizzazione totale
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Team Enterprise -->
+                    <div class="plan-column top-margin-50">
+                        
+                        <div class="plan-column-header">
+                            <i class="fa-solid fa-building"></i> Team
+                        </div>
+
+                        <div class="plan-column-content flex">
+                            <!-- Testo a Sinistra -->
+                            <div>
+                                <h3 class="top-margin-30">Enterprise</h3>
+
+                                <div class="plan-price top-margin-15">Contatta l'ufficio vendite per i prezzi</div>
+    
+                                <p class="top-margin-30">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+                            </div>
+                            <!-- Bottone a -->
+                            <div class="right-button">
+                                <a class="button blue-button top-margin-30" href="https://www.dropbox.com/enterprise/contact" target="_blank">Contatta l'ufficio vendite
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                </div> 
+            </section>
+            <!-- Sezione Partner -->
+            <section class="partner top-margin-150">
+                <div class="small-container flex">
+                    <!-- Immagine -->
+                    <div class="image">
+                        <img src="img/partner.png" alt="partner">
+                    </div>
+                    <!-- Testo -->
+                    <div class="partner-text top-margin-50">
+                        <h3>Entra in contatto con un partner Dropbox</h3>
+
+                        <p class="top-margin-15">
+                            Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.
+                        </p>
+                        
+                        <a class="button white-button top-margin-30" href="https://experience.dropbox.com/partner-locator" target="_blank">Trova un partner</a>
+                    </div>
+                </div>
+            </section>
+            <!-- Sezione Operazioni Dropbox Business -->
+            <section class="business-plan-operations top-margin-150">
+                <div class="small-container">
+                    <h2>Esegui più operazioni con Dropbox Business</h2>
+
+                    <div class="cards-container flex top-margin-30">
+                        <!-- Card 1 -->
+                        <div class="card">
+                            <div class="image">
+                                <img src="img/business-feature-switching-tools.png" alt="switching tools">
+                            </div>
+
+                            <h3 class="">Passa di meno da uno strumento all'altro</h3>
+
+                            <p class="top-margin-30">
+                                Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                            </p>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="card">
+                            <div class="image">
+                                <img src="img/business-feature-send-files-it.png" alt="send files">
+                            </div>
+
+                            <h3 class="">Passa di meno da uno strumento all'altro</h3>
+
+                            <p class="top-margin-30">
+                                Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                            </p>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="card">
+                            <div class="image">
+                                <img src="img/business-feature-coordinate-it.png" alt="coordinate">
+                            </div>
+
+                            <h3 class="">Passa di meno da uno strumento all'altro</h3>
+
+                            <p class="top-margin-30">
+                                Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                            </p>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="card">
+                            <div class="image">
+                                <img src="img/business-feature-integrations-it.png" alt="integration">
+                            </div>
+
+                            <h3 class="">Passa di meno da uno strumento all'altro</h3>
+
+                            <p class="top-margin-30">
+                                Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                            </p>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="card">
+                            <div class="image">
+                                <img src="img/business-feature-multi-device.png" alt="multi device">
+                            </div>
+
+                            <h3 class="">Passa di meno da uno strumento all'altro</h3>
+
+                            <p class="top-margin-30">
+                                Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                            </p>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="card">
+                            <div class="image">
+                                <img src="img/business-feature-security.png" alt="security">
+                            </div>
+
+                            <h3 class="">Passa di meno da uno strumento all'altro</h3>
+
+                            <p class="top-margin-30">
+                                Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Sezione Team Business -->
+            <section class="team-business top-margin-150">
+                <div class="small-container">
+                    <h2>Più di 500.000 team utilizzano <br> Dropbox Business</h2>
+
+                    <a class="top-margin-50" href="https://experience.dropbox.com/partner-locator" target="">Scopri di più sui nostri clienti</a>
+                </div>
+            </section>
+            <!-- Sezione Logo Aziende -->
+            <section class="companies-logo-wall flex top-margin-150">
+                <!-- Quadrato di Sinistra -->
+                <div class="flex">
+                    <div class="logo-image designit">
+                        <div class="image">
+                            <img src="img/designit.svg" alt="Designit logo">
+                        </div>
+                    </div>
+
+                    <div class="logo-image asu">
+                        <div class="image">
+                            <img src="img/arizona_state_university.svg" alt="ASU logo">
+                        </div>
+                    </div>
+
+                    <div class="logo-image uf">
+                        <div class="image">
+                            <img src="img/university_of_florida.svg" alt="UF logo">
+                        </div>
+                    </div>
+
+                    <div class="logo-image topps">
+                        <div class="image">
+                            <img src="img/topps.svg" alt="Topps logo">
+                        </div>
+                    </div>
+                </div>
+                <!-- Quadrato Centrale -->
+                <div class="central-square">
+                    <div class="central-element">
+                        <img src="img/designit.svg" alt="Designit logo">
+                    </div>
+
+                    <hr class="top-margin-50">
+
+                    <p class="top-margin-50">"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper".</p>
+
+                    <p class="top-margin-50">Morten Thomsen, Global IT Lead</p>
+                </div>
+
+                <!-- Quadrato di Destra -->
+                <div class="flex">
+                    <div class="logo-image wbr">
+                        <div class="image">
+                            <img src="img/world_bicycle_relief.svg" alt="WBR logo">
+                        </div>
+                    </div>
+
+                    <div class="logo-image hearts">
+                        <div class="image">
+                            <img src="img/hearst_corp.svg" alt="Hearst logo">
+                        </div>
+                    </div>
+
+                    <div class="logo-image lonely">
+                        <div class="image">
+                            <img src="img/lonely_planet.svg" alt="Lonely Planet logo">
+                        </div>
+                    </div>
+
+                    <div class="logo-image cco">
+                        <div class="image">
+                            <img src="img/clear_channel.svg" alt="Clear Channel logo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Sezione Prova Gratuita Dropbox Business -->
+            <section class="business-free-trial">
+                <div class="small-container flex">
+                    <div class="trial-text">
+                        <h2>Porta Dropbox Business
+                            <br>
+                            nella tua azienda
+                        </h2>
+                    </div>
+                    <!-- Bottone Prova Gratuita -->
+                    <div class="trial-button">
+                        <a class="button white-button" href="https://www.dropbox.com/business/try?sku=std" target="_blank">Inizia la tua prova gratuita</a>
+                    </div>
+                </div>
+            </section>
+            <!-- Sezione Domande Frequenti -->
+            <section class="faq top-margin-150">
+                <div class="small-container">
+                    <!-- Titolo -->
+                    <h2>Domande frequenti</h2>
+                    <!-- Prima Sezione -->
+                    <div class="row flex">
+                        <div>
+                            <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p>
+                        </div>
+
+                        <div class="expand">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <!-- Seconda Sezione -->
+                    <div class="row flex">
+
+                        <div>
+                            <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p>
+                        </div>
+
+                        <div class="expand">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <!-- Terza Sezione -->
+                    <div class="row flex">
+                        <div>
+                            <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p>
+                        </div>
+
+                        <div class="expand">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+
+        <footer class="top-margin-150">
+            <div class="container">
+                <!-- Sezione Link Utili -->
+                <div class="f-links flex">
+                    <!-- Prima Lista -->
+                    <div class="link-list">
+                        <!-- Titolo -->
+                        <h3>Dropbox</h3>
+                        
+                        <ul class="top-margin-30">
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/install" target="_blank">Applicazione desktop</a></li>
+                            <li class="top-margin-10"><a href="https://experience.dropbox.com/" target="_blank">Perchè Dropbox</a></li>
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/features/security" target="_blank">Piani</a></li>
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/features/security" target="_blank">Sicurezza</a></li>
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/features" target="_blank">Funzioni</a></li>
+                        </ul>
+                    </div>
+                    <!-- Seconda Lista -->
+                    <div class="link-list">
+                        <h3>Prodotti</h3>
+                        
+                        <ul class="top-margin-30">
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/install" target="_blank">Applicazione desktop</a></li>
+                            <li class="top-margin-10"><a href="https://experience.dropbox.com/" target="_blank">Perchè Dropbox</a></li>
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/features/security" target="_blank">Piani</a></li>
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/features/security" target="_blank">Sicurezza</a></li>
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/features" target="_blank">Funzioni</a></li>
+                        </ul>
+                    </div>
+                    <!-- Terza Lista -->
+                    <div class="link-list">
+                        <h3>Azienda</h3>
+                        
+                        <ul class="top-margin-30">
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/install" target="_blank">Applicazione desktop</a></li>
+                            <li class="top-margin-10"><a href="https://experience.dropbox.com/" target="_blank">Perchè Dropbox</a></li>
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/features/security" target="_blank">Piani</a></li>
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/features/security" target="_blank">Sicurezza</a></li>
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/features" target="_blank">Funzioni</a></li>
+                        </ul>
+                    </div>
+                    <!-- Terza Quarta -->
+                    <div class="link-list">
+                        <h3>Supporto</h3>
+                        
+                        <ul class="top-margin-30">
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/install" target="_blank">Applicazione desktop</a></li>
+                            <li class="top-margin-10"><a href="https://experience.dropbox.com/" target="_blank">Perchè Dropbox</a></li>
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/features/security" target="_blank">Piani</a></li>
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/features/security" target="_blank">Sicurezza</a></li>
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/features" target="_blank">Funzioni</a></li>
+                        </ul>
+                    </div>
+                    <!-- Quinta Lista -->
+                    <div class="link-list">
+                        <h3>Community</h3>
+                        
+                        <ul class="top-margin-30">
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/install" target="_blank">Applicazione desktop</a></li>
+                            <li class="top-margin-10"><a href="https://experience.dropbox.com/" target="_blank">Perchè Dropbox</a></li>
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/features/security" target="_blank">Piani</a></li>
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/features/security" target="_blank">Sicurezza</a></li>
+                            <li class="top-margin-10"><a href="https://www.dropbox.com/features" target="_blank">Funzioni</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr>
+                <!-- Sezione Lingua -->
+                <div class="language">
+                <i class="fa-solid fa-earth-americas"></i>Italiano <i class="fa-solid fa-caret-up"></i>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <!-- Crediti DM -->
 </html>

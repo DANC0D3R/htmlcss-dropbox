@@ -1,0 +1,125 @@
+/* ----- HEADER ----- */
+/* .debug header {
+    background-color: aqua;
+} */
+
+/* NAVBAR */
+/* .debug .left-navbar {
+    background-color: violet;
+} */
+/* 
+.debug .r-navbar {
+    background-color: yellow;   
+} */
+
+
+
+
+/* ----- MAIN ----- */
+
+/* MAIN HEADER */
+
+/* TITLE */
+/* .debug .title {
+    height: 600px;
+} */
+
+/* .debug .title > .container {
+    min-height: 100%;
+    
+    background-color: indigo;
+} */
+
+/* .debug .image {
+    width: 650px;
+    height: 400px;
+
+    background-color: deepskyblue;
+} */
+
+/* PIANI DI ABBONAMENTO */
+/* .debug .plans {
+    background-color: orange;
+} */
+
+/* .debug .plans > .small-container {
+    min-height: 900px;
+    
+    background-color: beige;
+} */
+
+/* PARTNER */
+/* .debug .partner {
+    background-color: green;
+}
+
+.debug .partner > .small-container {
+    background-color: fuchsia;
+    min-height: 400px;
+} */
+
+/* BUSINESS OPERATIONS */
+/* .debug .operations {
+    background-color: yellow;
+} */
+/*
+.debug .operations > .small-container {
+    background-color: red;
+    min-height: 1000px;
+} */
+
+/* TEAM BUSINESS */
+/* .debug .business {
+    background-color: green;
+}
+
+.debug .business > .small-container {
+    background-color: gold;
+    min-height: 200px;
+} */
+
+/* LOGO AZIENDE */
+/* .companies-logo-wall > * {
+    background-color: olive;
+    border: 1px solid black;
+} */
+
+/* .debug .companies-logo-wall .logo-image {
+    background-color: indigo;
+    border: 1px solid;
+} */
+
+/* BUSINESS FREE TRIAL */
+/* .debug .business-free-rial > .small-container {
+    background-color: blue;
+    height: 300px;
+} */
+
+/* DOMANDE FREQUENTI */
+/* .debug .faq {
+    background-color: salmon;
+} */
+
+/* .debug .faq > .small-container {
+    background-color: green;
+    height: 300px;
+} */
+
+
+/* ----- FOOTER ----- */
+/* LINK UTLI */
+/* .debug .f-links {
+    min-height: 500px;
+    background-color: deepskyblue;
+} */
+
+/* .debug .f-links .f-list {
+    background-color: teal;
+    border: 1px solid black;
+} */
+
+/* LINGUA */
+/* .debug .language {
+    min-height: 100px;
+    background-color: yellow;
+} */
