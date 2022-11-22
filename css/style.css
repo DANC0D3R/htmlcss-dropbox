@@ -347,6 +347,10 @@ main {
     border-bottom: 1px solid grey;
 }
 
+.faq .row .request{
+    font-weight: bold;
+}
+
 .faq .expand {
     padding-right: 50px;
 }

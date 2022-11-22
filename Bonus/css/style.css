@@ -347,6 +347,20 @@ main {
     border-bottom: 1px solid grey;
 }
 
+.faq .row .request{
+    font-weight: bold;
+}
+
+.faq .row .answer{
+    display: none;
+}
+
+.faq .row:hover .answer{
+    display: block;
+
+    padding-top: 20px;
+}
+
 .faq .expand {
     padding-right: 50px;
 }
