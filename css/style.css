@@ -36,6 +36,8 @@ header ul li:hover{
 }
 
 header nav ul li a {
+    padding: 30px 0;
+    
     line-height: 80px;
 
     text-decoration: none;
@@ -254,7 +256,7 @@ main {
 }
 
 .companies-logo-wall .logo-image img {
-    /* filter: invert(100%); */
+    filter: invert(100%);
 }
 
 .companies-logo-wall .logo-image.designit {
