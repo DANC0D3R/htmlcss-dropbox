@@ -254,7 +254,7 @@ main {
 }
 
 .companies-logo-wall .logo-image img {
-    /* filter: invert(100%); */
+    filter: invert(100%);
 }
 
 .companies-logo-wall .logo-image.designit {
