@@ -1,5 +1,5 @@
 /* ----- HEADER ----- */
-header {
+header{
     width: 100vw;
     height: 80px;
 
@@ -11,17 +11,17 @@ header {
     background-color: #FFFFFF;
 }
 
-header > * {
+header > *{
     width: 50%;
     padding: 0 40px 0 25px;
     align-items: center;
 }
 
-header img {
+header img{
     margin-right: 40px;
 }
 
-header ul {
+header ul{
     height: 100%;
     list-style: none;
 }
@@ -35,7 +35,7 @@ header ul li:hover{
     border-bottom: 3px solid #0061FF; 
 }
 
-header nav ul li a {
+header nav ul li a{
     padding: 30px 0;
     
     line-height: 80px;
@@ -44,7 +44,7 @@ header nav ul li a {
     color: #131313;
 }
 
-header .right-navbar {
+header .right-navbar{
     justify-content: flex-end;
 }
 
@@ -54,22 +54,22 @@ main {
 }
 
 /* TITOLO */
-.title {
+.title{
     padding: 80px 0 20px;
     background-color: #B4D0E7;
 }
 
-.title h1 {
+.title h1{
     font-size: 5em;
     font-weight: 900;
 }
 
-.title .title-text {
+.title .title-text{
     width: 30%;
     margin-top: 50px;
 }
 
-.title .image {
+.title .image{
     width: 70%;
 
     position: absolute;
@@ -77,11 +77,11 @@ main {
     bottom: -100px;
 }
 
-.title .button {
+.title .button{
     margin: 30px 0;
 }
 
-.title i {
+.title i{
     display: inline-block;
 
     margin-top: 80px;
@@ -92,24 +92,24 @@ main {
 
 
 /* SUBCRIPTIONS PLANS */
-.plans {
+.plans{
     font-size: 0.9em;
 }
 
-.plans .plan-price {
+.plans .plan-price{
     font-weight: bold;
 }
 
-.plans .plan-renewal {
+.plans .plan-renewal{
     color: #808080;
 }
 
-.plans ul {
+.plans ul{
     margin-left: 20px;
     list-style-position: outside;
 }
 
-.plans i.blue-icon {
+.plans i.blue-icon{
     color: #0061FF;
 }
 
@@ -117,11 +117,11 @@ main {
     margin: 2.5rem 0;
 }
 
-#plans-selector input[type="radio"] {
+#plans-selector input[type="radio"]{
     display: none;
 }
 
-#plans-selector label {
+#plans-selector label{
     margin: 0 1.5rem;
 
     position: relative;
@@ -129,7 +129,7 @@ main {
     cursor: pointer;
 }
 
-#plans-selector label::before {
+#plans-selector label::before{
     content: '';
     display: inline-block;
     width: 15px;
@@ -147,19 +147,19 @@ main {
     transition: all 0.1s;
 }
 
-#plans-selector input:checked + label::before {
+#plans-selector input:checked + label::before{
     width: 10px;
     height: 10px;
     border: 5px solid #0061FF;
 }
 
 /* COLONNE */
-.plans-layout {
+.plans-layout{
     margin-top: 50px;
     justify-content: space-between;
 }
 
-.plans-layout .plan-column {
+.plans-layout .plan-column{
     width: calc(100% / 3 - 40px);
 }
 
@@ -169,15 +169,15 @@ main {
     border: 1px solid #D3D3D3;
 }
 
-.plan-column .button {
+.plan-column .button{
     width: 100%;
 }
 
-.plan-column hr {
+.plan-column hr{
     width: 20%;
 }
 
-.plan-column-header {
+.plan-column-header{
     height: 50px;
 
     text-align: center;
@@ -186,11 +186,11 @@ main {
     border-bottom: 1px solid #D3D3D3;
 }
 
-.plan-column-content {
+.plan-column-content{
     padding: 0 20px 40px;
 }
 
-.plan-column-content .right-button {
+.plan-column-content .right-button{
     width: 30%;
     padding-left: 20px;
 
@@ -198,28 +198,28 @@ main {
 }
 
 /* PARTNER */
-.partner .image {
+.partner .image{
     width: 60%;
 }
 
-.partner .partner-text {
+.partner .partner-text{
     width: 40%;
     margin-top: 50px;
     padding: 0 40px;
 }
 
 /* BUSINESS PLAN OPERATIONS */
-.business-plan-operations .cards-container {
+.business-plan-operations .cards-container{
     flex-wrap: wrap;
 }
 
-.business-plan-operations .card {
+.business-plan-operations .card{
     width: calc(100% / 3);
     padding: 0 20px 50px;
 }
 
 /* TEAM BUSINESS */
-.team-business a {
+.team-business a{
     display: inline-block;
 
     margin-top: 50px;
@@ -231,77 +231,77 @@ main {
     overflow: hidden;
 }
 
-.companies-logo-wall > * {
+.companies-logo-wall > *{
     width: calc(100% / 3);
     height: calc(100vw / 3);
 }
 
-.companies-logo-wall > *.flex {
+.companies-logo-wall > *.flex{
     flex-wrap: wrap;
 }
 
 /* IMMAGINI */
-.companies-logo-wall .logo-image {
+.companies-logo-wall .logo-image{
     width: 50%;
     height: 50%;
 
     position: relative;
 }
 
-.companies-logo-wall .logo-image > * {
+.companies-logo-wall .logo-image > *{
     position: absolute;
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
 }
 
-.companies-logo-wall .logo-image img {
+.companies-logo-wall .logo-image img{
     filter: invert(100%);
 }
 
-.companies-logo-wall .logo-image.designit {
+.companies-logo-wall .logo-image.designit{
     background-color: #A2D39B;
 }
 
-.companies-logo-wall .logo-image.asu {
+.companies-logo-wall .logo-image.asu{
     background-color: #61082B;
 }
 
-.companies-logo-wall .logo-image.uf {
+.companies-logo-wall .logo-image.uf{
     background-color: #0093CE;
 }
 
-.companies-logo-wall .logo-image.topps {
+.companies-logo-wall .logo-image.topps{
     background-color: #FF1C1C;
 }
 
-.companies-logo-wall .logo-image.wbr {
+.companies-logo-wall .logo-image.wbr{
     background-color: #D5001F;
 }
 
-.companies-logo-wall .logo-image.hearts {
+.companies-logo-wall .logo-image.hearts{
     background-color: #B4D0E7;
 }
 
-.companies-logo-wall .logo-image.lonely {
+.companies-logo-wall .logo-image.lonely{
     background-color: #0D2481;
 }
 
-.companies-logo-wall .logo-image.cco {
+.companies-logo-wall .logo-image.cco{
     background-color: #FFD830;
 }
 
-/* CENTRAL SECTION */
-.companies-logo-wall .central-square {
+/* QUADRATO CENTRALE */
+.companies-logo-wall .central-square{
     padding: 40px;
     background-color: #F5F5F5;
 }
 
-.companies-logo-wall .central-square .central-element {
+.companies-logo-wall .central-square .central-element{
     height: 15%;
 }
 
-.companies-logo-wall .central-square hr {
+.companies-logo-wall .central-square hr{
     width: 20%;
 
     border-width: 0 0 1px;
@@ -310,25 +310,25 @@ main {
 }
 
 /* BUSINESS FREE TRIAL */
-.business-free-trial {
+.business-free-trial{
     background-color: #B4D0E7;
 }
 
-.business-free-trial .small-container > * {
+.business-free-trial .small-container > *{
     padding: 100px 0;
 }
 
-.business-free-trial .trial-text {
+.business-free-trial .trial-text{
     width: 70%;
     color: #61082B;
 }
 
-.business-free-trial .trial-button {
+.business-free-trial .trial-button{
     width: 30%;
     text-align: right;
 }
 
-.business-free-trial .trial-button a {
+.business-free-trial .trial-button a{
     width: 100%;
     border: none;
 }
@@ -338,14 +338,14 @@ main {
     margin-bottom: 50px;
 }
 
-.faq .row {
+.faq .row{
     padding: 30px 0;
     justify-content: space-between;
 
     border-top: 1px solid grey;
 }
 
-.faq .row:last-child {
+.faq .row:last-child{
     border-bottom: 1px solid grey;
 }
 
@@ -353,17 +353,17 @@ main {
     font-weight: bold;
 }
 
-.faq .expand {
+.faq .expand{
     padding-right: 50px;
 }
 
 /* ----- FOOTER ----- */
-footer {
+footer{
     background-color: #000000;
 }
 
 /* LINK UTILI */
-.f-links .link-list {
+.f-links .link-list{
     width: calc(100% / 5);
     padding: 100px 0;
 }
@@ -372,11 +372,11 @@ footer h3{
     color: #FFFFFF;
 }
 
-.f-links .link-list ul {
+.f-links .link-list ul{
     list-style: none;
 }
 
-.f-links .link-list a {
+.f-links .link-list a{
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -390,11 +390,11 @@ footer hr{
 }
 
 /* LINGUA */
-.language {
+.language{
     color: #808080;
     padding: 50px 0;
 }
 
-.language .fa-earth-americas {
+.language .fa-earth-americas{
     margin-right: 5px;
 }
