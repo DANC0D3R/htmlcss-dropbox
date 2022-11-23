@@ -13,7 +13,10 @@
 } */
 
 /* SOTTOMENU LINK NAVBAR */
-
+.debug .sub-menu{
+    width: 100px;
+    height: 100px;
+}
 
 
 
