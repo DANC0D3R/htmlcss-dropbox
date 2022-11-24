@@ -228,7 +228,6 @@ main {
 /* LOGO AZIENDE */
 .companies-logo-wall{
     align-items: flex-start;
-    overflow: hidden;
 }
 
 .companies-logo-wall > *{
@@ -295,6 +294,9 @@ main {
 .companies-logo-wall .central-square{
     padding: 40px;
     background-color: #F5F5F5;
+
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .companies-logo-wall .central-square .central-element{
