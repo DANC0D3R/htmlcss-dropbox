@@ -160,7 +160,7 @@ main {
 }
 
 .plans-layout .plan-column{
-    width: calc(100% / 3 - 40px);
+    width: calc(100% / 3 - 40px); /* Approccio più addattivo senza "-40px" */
 }
 
 .plan-column {
