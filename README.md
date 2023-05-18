@@ -11,3 +11,6 @@ Consigli:
 Teniamo sempre un approccio ordinato, solo quando tutto funziona passiamo al dettaglio, sezione per sezione. Cerchiamo però di bilanciare questo, organizzando il nostro tempo di sviluppo non incartandoci sulla singola feature, ma lasciando per dopo semmai i dettagli più complessi se è il caso.
 Creiamo delle classi riutilizzabili individuando gli elementi ricorrenti nel layout, capendo quindi come e cosa possiamo centralizzare per rendere il nostro codice il più possibile semplice, pulito e quindi mantenibile.
 Non lavoriamo ancora sul responsive, quindi la nostra pagina non deve adattarsi a tutti i possibili viewport. Se comunque riusciamo almeno a lavorare già un pò con unità relative, senza però crearci nuove difficoltà, tanto meglio.
+
+<h1 align="center">Anteprima<h1>
+<div align="center"><img src="Traccia Esercizio.png" width="800">
